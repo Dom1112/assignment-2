@@ -22,7 +22,7 @@ li{
     list-style-type: none;
 }
 .container{
-    width: 1050px;
+    max-width: 1050px;
     margin: auto;
 }
 .button{
@@ -51,7 +51,7 @@ li{
     background: #2D25A0;
 }
 .header-container{
-    width: 1144px;
+    max-width: 1144px;
     margin: auto;
 }
 .header-contents{
@@ -59,7 +59,7 @@ li{
     padding: 110px 0 86px;
 }
 .header-left-content{
-    width: 485px;
+    max-width: 485px;
     margin-right: 102px;
 }
 .header-left-content h1{
@@ -74,7 +74,7 @@ li{
     margin-left: 8px;
 }
 .header-right-content{
-    width: 557px;
+    max-width: 557px;
 }
 .header-right-content img{
     transition: all linear .3s;
@@ -96,12 +96,12 @@ li{
     grid-row-gap: 27px;
 }
 .player{
-    width: 330px;
+    max-width: 330px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
     padding: 15px 15px 33px;
 }
 .player img{
-    width: 100%;
+    max-width: 100%;
 }
 .player .player-name{
     font-size: 28;
@@ -126,13 +126,13 @@ li{
     margin-top: 150px;
 }
 .highlights-container{
-    width: 1102px;
+    max-width: 1102px;
     margin: auto;
     display: flex;
     align-items: center;
 }
 .highlights-left-contents{
-    width: 469px;
+    max-width: 469px;
     margin-right: 66px;
 }
 .highlights-heading{
@@ -146,8 +146,8 @@ li{
     margin-top: 24px;
 }
 .highlights-right-contents{
-    width: 567px;
+    max-width: 567px;
 }
 .highlights-right-contents img{
-    width: 100%;
+    max-width: 100%;
 }
