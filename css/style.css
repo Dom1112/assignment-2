@@ -74,9 +74,6 @@ li{
 .header-left-content .btn-arrow{
     margin-left: 8px;
 }
-/* .header-right-content{
-    width: 557px;
-} */
 .header-right-content img{
     transition: all linear .3s;
 }
