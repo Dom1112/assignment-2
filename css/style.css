@@ -217,3 +217,65 @@ li{
 .training-blog .training-info{
     text-align: justify;
 }
+
+/* ---------------------------*|
+    COMMENTS AREA STYLES
+/*----------------------------*/
+.comments-area{
+    padding: 50px 0;
+    background-color: darkkhaki;
+}
+.reply{
+    width: 300px;
+    padding-bottom: 30px;
+}
+.reply h2{
+    font-size: 2em;
+    text-transform: capitalize;
+    color: #fff;
+}
+.reply span{
+    font-size: 40px;
+    color: #fff;
+}
+.reply .commenter{
+    font-size: 20px;
+}
+.reply .comments{
+    color: #fff;
+}
+.comment-form{
+    width: 70%;
+}
+.comment-form h2{
+    font-size: 2em;
+    color: whitesmoke;
+}
+.comment-form form{
+    display: flex;
+    flex-direction: column;
+}
+.comment-form label{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #fff;
+}
+.comment-form input,
+.comment-form textarea{
+    padding: 7px 3px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.comment-form .submit-btn{
+    width: 20%;
+    padding: 10px 15px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.comment-form i{
+    font-size: 10px;
+    color: red;
+}
