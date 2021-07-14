@@ -109,9 +109,45 @@ li{
     color: #18191F;
     line-height: 40px;
 }
-.player .player-description{
+/* grouping from players gallery
+    and highlights section */
+.player .player-description,
+.highlights-details{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     color: #6C6C6C;
+}
+
+/* ----------------------*|
+    HIGHLIGHTS STYLES
+/*-----------------------*/
+.highlights-area{
+    margin-top: 150px;
+}
+.highlights-container{
+    width: 1102px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.highlights-left-contents{
+    width: 469px;
+    margin-right: 66px;
+}
+.highlights-heading{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #0A0826;
+    margin-bottom: 8px;
+}
+.highlights-left-contents .button{
+    margin-top: 24px;
+}
+.highlights-right-contents{
+    width: 567px;
+}
+.highlights-right-contents img{
+    width: 100%;
 }
