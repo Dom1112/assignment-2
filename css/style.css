@@ -22,7 +22,7 @@ li{
     list-style-type: none;
 }
 .container{
-    width: 1040px;
+    width: 1050px;
     margin: auto;
 }
 .button{
@@ -82,3 +82,26 @@ li{
 .header-right-content:hover img{
     transform: scale(1.1);
 }
+
+/* ----------------------*|
+    PLAYERS GALLERY STYLES
+/*-----------------------*/
+.players-gallery{
+    margin-top: 70px;
+}
+.players-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+.player{
+    width: 330px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+    padding: 15px 15px 33px;
+}
+.player img{
+    width: 100%;
+}
+.player .player-name{}
+.player .player-description{}
