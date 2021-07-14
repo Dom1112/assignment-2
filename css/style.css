@@ -40,10 +40,6 @@ li{
     color: yellowgreen;
     border-radius: 5px;
 }
-.d-flex{
-    display: flex;
-}
-
 /* ----------------------*|
     HEADER AREA STYLES
 /*-----------------------*/
@@ -55,12 +51,17 @@ li{
     margin: auto;
 }
 .header-contents{
-    align-items: center;
+    display: grid;
+    grid-template-columns: 485px 557px;
+    grid-column-gap: 102px;
     padding: 110px 0 86px;
 }
-.header-left-content{
-    max-width: 485px;
-    margin-right: 102px;
+/* grouped from highlights area */
+.header-left-content,
+.highlights-left-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .header-left-content h1{
     color: #fff;
@@ -73,9 +74,9 @@ li{
 .header-left-content .btn-arrow{
     margin-left: 8px;
 }
-.header-right-content{
-    max-width: 557px;
-}
+/* .header-right-content{
+    width: 557px;
+} */
 .header-right-content img{
     transition: all linear .3s;
 }
@@ -96,12 +97,12 @@ li{
     grid-row-gap: 27px;
 }
 .player{
-    max-width: 330px;
+    width: 330px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
     padding: 15px 15px 33px;
 }
 .player img{
-    max-width: 100%;
+    width: 100%;
 }
 .player .player-name{
     font-size: 28;
@@ -128,12 +129,9 @@ li{
 .highlights-container{
     max-width: 1102px;
     margin: auto;
-    display: flex;
-    align-items: center;
-}
-.highlights-left-contents{
-    max-width: 469px;
-    margin-right: 66px;
+    display: grid;
+    grid-template-columns: 469px 576px;
+    grid-column-gap: 66px;
 }
 .highlights-heading{
     font-size: 48px;
@@ -145,9 +143,6 @@ li{
 .highlights-left-contents .button{
     margin-top: 24px;
 }
-.highlights-right-contents{
-    max-width: 567px;
-}
 .highlights-right-contents img{
-    max-width: 100%;
+    width: 100%;
 }
