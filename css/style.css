@@ -146,3 +146,74 @@ li{
 .highlights-right-contents img{
     width: 100%;
 }
+
+/* ------------------------*|
+    TRAINING PROCESS STYLES
+/*-------------------------*/
+.training-process-area{
+    padding: 80px 0;
+}
+.training-title h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0 20px;
+}
+.training-contents{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+}
+.training-blog{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+.training-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: all linear .3s;
+    overflow: hidden;
+}
+.training-img:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+.preparation-bg{
+    background: url(../images/training/preparation.jpg);
+}
+.training-bg{
+    background: url(../images/training/training.jpg);
+}
+.motivation-bg{
+    background: url(../images/training/motivation.jpg);
+}
+.realization-bg{
+    background: url(../images/training/realization.jpg);
+}
+.preparation-bg,
+.training-bg,
+.motivation-bg,
+.realization-bg{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-count{
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+.training-blog .training-title{
+    padding: 10px;
+}
+.training-blog .training-info{
+    text-align: justify;
+}
