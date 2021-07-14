@@ -1,0 +1,84 @@
+/* ----------------------*|
+    GOOGLE FONTS POPPINS
+/*-----------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* ----------------------*|
+        COMMON STYLES
+/*-----------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul,
+li{
+    list-style-type: none;
+}
+.container{
+    width: 1040px;
+    margin: auto;
+}
+.button{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all linear .2s;
+}
+.button:hover{
+    color: yellowgreen;
+    border-radius: 5px;
+}
+.d-flex{
+    display: flex;
+}
+
+/* ----------------------*|
+    HEADER AREA STYLES
+/*-----------------------*/
+.header-area{
+    background: #2D25A0;
+}
+.header-container{
+    width: 1144px;
+    margin: auto;
+}
+.header-contents{
+    align-items: center;
+    padding: 110px 0 86px;
+}
+.header-left-content{
+    width: 485px;
+    margin-right: 102px;
+}
+.header-left-content h1{
+    color: #fff;
+    font-size: 64px;
+    line-height: 80px;
+}
+.header-left-content .button{
+    margin-top: 27px;
+}
+.header-left-content .btn-arrow{
+    margin-left: 8px;
+}
+.header-right-content{
+    width: 557px;
+}
+.header-right-content img{
+    transition: all linear .3s;
+}
+.header-right-content:hover img{
+    transform: scale(1.1);
+}
